@@ -1,0 +1,20 @@
+{
+  "name": "launchos-skill",
+  "version": "1.0.0",
+  "description": "LaunchOS 应用分组管理 Skill — AI 驱动智能分类",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx scripts/cli.ts",
+    "dev": "npx tsx watch scripts/cli.ts",
+    "build": "npx tsc",
+    "typecheck": "npx tsc --noEmit"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.4.0"
+  }
+}
